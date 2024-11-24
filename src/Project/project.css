@@ -1,0 +1,28 @@
+.download-image{
+    width: 250px;
+    height: 250px;
+    margin-top: 400px;
+    margin-bottom: -350px;
+    margin-left: 200px;
+}
+
+.portfolio{
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-bottom: -100px;
+    margin-top: -170px;
+    margin-left: 400px;
+  }
+  
+  .portfolio:hover {
+    transform: scale(1.1);
+  }
+  .A{
+    margin-left: 200px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  

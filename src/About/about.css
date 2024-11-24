@@ -1,0 +1,42 @@
+.about-content h1{
+  font-size: 20px;
+  margin-top: 100px;
+  margin-left: 600px;
+
+}
+.about-image {
+  width: 350px;
+  height: 450px;
+
+  margin: 20px auto;
+  margin-left: 90px;
+  margin-top: 50px;
+  display: block;
+}
+.p1{
+  
+ width: 500px;
+margin-top: -450px;
+margin-left: 570px;
+font-family: 'Arial', sans-serif; /* Change font family */
+line-height: 1.6; /* Adjust line height for better readability */
+color: #444;
+
+}
+.p2{
+  width: 700px;
+  margin-top: 30px;
+    margin-left: 570px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    line-height: 1.6; /* Adjust line height for better readability */
+    color: #555; 
+}
+.p3{
+  width: 700px;
+  margin-left: 570px;
+  margin-top: 30px;
+  font-family: 'Arial', sans-serif; /* Change font family */
+  line-height: 1.6; /* Adjust line height for better readability */
+  color: #555; 
+    
+}
