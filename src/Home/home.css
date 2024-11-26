@@ -41,7 +41,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #e6dddd;
+  background-color: #d4d4d400;
   border-color: black;
   color: rgb(0, 0, 0);
   padding: 18px 20px;
