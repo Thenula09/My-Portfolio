@@ -41,7 +41,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #d4d4d400;
+  background-color: #bbbbbb;
   border-color: black;
   color: rgb(0, 0, 0);
   padding: 18px 20px;
@@ -90,7 +90,7 @@ body {
 }
 
 .footer {
-  background-color: #dbdada;
+  background-color: #bbbbbb;
   text-align: center;
   padding: 20px 0;
   margin-top: 400px;
