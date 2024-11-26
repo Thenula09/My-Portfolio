@@ -46,7 +46,7 @@ body {
   color: rgb(0, 0, 0);
   padding: 18px 20px;
   position: fixed;
-  width: 98%;
+  width: 100%;
   top: 0;
   z-index: 1000;
 }
@@ -79,10 +79,10 @@ body {
 .navbar-right ul li a:hover {
   color: #1db3ee;
 }
+
 .home-image {
   display: block;
   margin: 20px auto;
-  margin-left: -200px;
   width: 450px;
   height: 450px;
   border-radius: 5px;
@@ -124,39 +124,113 @@ body {
 .social-icon:hover {
   color: #00aaff;
 }
-.footer-social-icons {
-  margin: 15px 0;
+
+.footer-social-icons .social-icon:hover {
+  transform: scale(1.1); /* Slight zoom-in effect */
 }
 
-.social-icon {
-  display: inline-block;
-  margin: 0 10px;
-  font-size: 1.5rem;
-  color: #555;
-  transition: color 0.3s ease;
-}
-
-.social-icon:hover {
-  color: #00aaff;
-}
-.s{
+.s {
   margin-left: -160px;
   margin-top: -20px;
 }
-.s1{
+
+.s1 {
   margin-left: 310px;
   width: 500px;
 }
-.s2{
+
+.s2 {
   margin-left: 275px;
   width: 500px;
   margin-top: -15px;
 }
-.footer-social-icons .social-icon:hover {
- 
-  transform: scale(1.1); /* Slight zoom-in effect */
+
+/* Mobile Specific Styles */
+@media (max-width: 768px) {
+  /* Navigation bar for mobile */
+  .navbar-left h1 {
+    font-size: 1.2rem;
+  }
+
+  .navbar-right ul {
+    display: none; /* Hide links for mobile, you can add a mobile menu */
+  }
+
+  .home-header h2 {
+    font-size: 2rem;
+    margin-top: 50px;
+  }
+
+  .home-header h3 {
+    font-size: 2rem;
+    margin-top: -10px;
+  }
+
+  .home-image {
+    width: 350px;
+    height: 350px;
+  }
+
+  .home-content {
+    font-size: 1rem;
+  }
+
+  .footer h2 {
+    font-size: 1.2rem;
+  }
+
+  .social-icon {
+    font-size: 1.2rem;
+  }
+
+  /* Adjust text layout for mobile */
+  .s {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .s1, .s2 {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
 }
 
+/* Desktop Specific Styles (Large Screens) */
+@media (min-width: 769px) {
+  .home {
+    margin-left: 250px; /* Keep the content offset for the navbar */
+    padding: 20px;
+  }
 
+  .navbar-right ul {
+    display: flex;
+  }
 
+  .navbar-right ul li {
+    margin: 0 15px;
+  }
 
+  .home-header h2 {
+    font-size: 3rem;
+    margin-top: -471px;
+  }
+
+  .home-header h3 {
+    font-size: 3rem;
+    margin-left: -94px;
+  }
+
+  .home-image {
+    width: 450px;
+    height: 450px;
+  }
+
+  .footer h2 {
+    font-size: 1.5rem;
+  }
+
+  .footer-social-icons .social-icon {
+    font-size: 1.5rem;
+  }
+}
