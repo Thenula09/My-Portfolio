@@ -1,0 +1,26 @@
+.desktop-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bbbbbb;
+    padding: 20px 50px;
+  }
+  
+  .desktop-menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .desktop-menu li {
+    margin: 0 20px;
+  }
+  
+  .desktop-menu a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .desktop-menu a:hover {
+    color: #1db3ee;
+  }
+  

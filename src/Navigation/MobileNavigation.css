@@ -1,0 +1,17 @@
+.mobile-navbar {
+    background-color: #bbbbbb;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .mobile-menu a {
+    display: block;
+    margin: 10px 0;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .mobile-menu a:hover {
+    color: #1db3ee;
+  }
+  
