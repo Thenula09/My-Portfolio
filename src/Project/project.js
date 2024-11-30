@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaEnvelope, FaDownload } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaEnvelope, } from 'react-icons/fa';
 import './project.css'; // Ensure you have a CSS file for styling
 import Download from './download.png'; 
 import portfolio from './1st.PNG'; // Profile image or any other image you'd like to include
