@@ -36,7 +36,7 @@ const Project = () => {
       </div>
 
       {/* Portfolio Image - Clickable link to GitHub */}
-      <a href="https://github.com/Thenula09?tab=packages" target="_blank" rel="noopener noreferrer">
+      <a>
         <img 
           src={portfolio} 
           alt="Portfolio Web" 
