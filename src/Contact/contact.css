@@ -1,81 +1,77 @@
 .contact-content {
-    padding: 10px;
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: -150px;
-  }
-  
-  .contact-form {
-    margin-top: -280px;
-    margin-left: 350px;
-  }
-  
-  .form-group {
-    margin-bottom: 15px;
-    text-align: left;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-  
-  input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-  
-  textarea {
-    height: 100px;
-  }
-  
-  .send-button {
-    background-color: #8d9297;
-    color: rgb(20, 17, 17);
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  .send-button:hover {
-    background-color: #4a4d50;
-  }
-  
-  .maill {
-    margin-left: -850px;
-    margin-top: 300px;
-  }
-  
-  .topic {
-    margin-top: 80px;
-  }
-  
-  .contact-info {
-    font-size: 22px;
-    font-weight: bold;
- 
-    margin-top: -260px;
-  }
-  .description {
-    margin-top: 60px;
-    margin-bottom: 20px;
-    margin-left: 733px;
-    text-align: left;
-    font-size: 16px;
-    line-height: 1.8; /* Adjust for better spacing */
-    font-family: 'Arial', sans-serif; /* Change font family */
-    line-height: 1.6; /* Adjust line height for better readability */
-    color: #555; 
-  }
-  
-  
-  
- 
+  padding: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: -150px;
+}
+
+.contact-form {
+  margin-top: -280px;
+  margin-left: 350px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.send-button {
+  background-color: #8d9297;
+  color: rgb(20, 17, 17);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #4a4d50;
+}
+
+.maill {
+  margin-left: -850px;
+  margin-top: 300px;
+}
+
+.topic {
+  margin-top: 80px;
+}
+
+.contact-info {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: -260px;
+}
+
+.description {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 733px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.8; /* Adjust for better spacing */
+  font-family: 'Arial', sans-serif; /* Change font family */
+  line-height: 1.6; /* Adjust line height for better readability */
+  color: #555;
+}
