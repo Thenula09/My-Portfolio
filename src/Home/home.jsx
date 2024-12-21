@@ -6,20 +6,7 @@ import ProfileImage from './pic.jpg'; // Adjust based on the image location
 const Home = () => {
   return (
     <div>
-      <nav className="navbar">
-        <div className="navbar-left">
-          <h1>Thenula Hansaja</h1>
-        </div>
-        <div className="navbar-right">
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/gallery">Gallery</a></li>
-            <li><a href="/project">Project</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
+     
       <div className="home">
         <header className="home-header">
           <img 

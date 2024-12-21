@@ -1,42 +1,105 @@
-.about-content h1{
+/* General styling */
+.about-content h1 {
   font-size: 20px;
   margin-top: 100px;
   margin-left: 600px;
-
 }
+
 .about-image {
   width: 350px;
   height: 450px;
-
   margin: 20px auto;
   margin-left: 90px;
   margin-top: 50px;
   display: block;
 }
-.p1{
-  
- width: 500px;
-margin-top: -450px;
-margin-left: 570px;
-font-family: 'Arial', sans-serif; /* Change font family */
-line-height: 1.6; /* Adjust line height for better readability */
-color: #444;
 
+.p1 {
+  width: 500px;
+  margin-top: -450px;
+  margin-left: 570px;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #444;
 }
-.p2{
+
+.p2 {
   width: 700px;
   margin-top: 30px;
-    margin-left: 570px;
-    font-family: 'Arial', sans-serif; /* Change font family */
-    line-height: 1.6; /* Adjust line height for better readability */
-    color: #555; 
+  margin-left: 570px;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #555;
 }
-.p3{
+
+.p3 {
   width: 700px;
   margin-left: 570px;
   margin-top: 30px;
-  font-family: 'Arial', sans-serif; /* Change font family */
-  line-height: 1.6; /* Adjust line height for better readability */
-  color: #555; 
-    
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+  .about-content h1 {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  .about-image {
+    width: 80%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .p1,
+  .p2,
+  .p3 {
+    width: 100%;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+
+  .p2 {
+    margin-top: 20px;
+  }
+
+  .p3 {
+    margin-top: 20px;
+  }
+}
+
+/* Extra Small Devices (Phones) */
+@media (max-width: 480px) {
+  .about-content h1 {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .about-image {
+    width: 90%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .p1,
+  .p2,
+  .p3 {
+    width: 100%;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .p2 {
+    margin-top: 10px;
+  }
+
+  .p3 {
+    margin-top: 10px;
+  }
 }

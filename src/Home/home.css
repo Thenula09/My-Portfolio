@@ -79,6 +79,7 @@ body {
 .navbar-right ul li a:hover {
   color: #1db3ee;
 }
+
 .home-image {
   display: block;
   margin: 20px auto;
@@ -124,39 +125,86 @@ body {
 .social-icon:hover {
   color: #00aaff;
 }
-.footer-social-icons {
-  margin: 15px 0;
-}
 
-.social-icon {
-  display: inline-block;
-  margin: 0 10px;
-  font-size: 1.5rem;
-  color: #555;
-  transition: color 0.3s ease;
-}
-
-.social-icon:hover {
-  color: #00aaff;
-}
-.s{
-  margin-left: -160px;
-  margin-top: -20px;
-}
-.s1{
-  margin-left: 310px;
-  width: 500px;
-}
-.s2{
-  margin-left: 275px;
-  width: 500px;
-  margin-top: -15px;
-}
 .footer-social-icons .social-icon:hover {
- 
   transform: scale(1.1); /* Slight zoom-in effect */
 }
 
+/* Media queries for mobile users */
+@media (max-width: 768px) {
+  .home {
+    margin-left: 0; /* Remove the margin for mobile screens */
+    padding: 10px;
+  }
 
+  .home-header h2 {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+    margin-top: 0;
+  }
 
+  .home-header h3 {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+    margin-left: 0;
+  }
 
+  .home-image {
+    width: 350px; /* Make the profile image smaller for mobile */
+    height: 350px;
+  }
+
+  .navbar {
+    padding: 10px 15px; /* Adjust navbar padding */
+  }
+
+  .navbar-left h1 {
+    font-size: 1.2rem; /* Smaller font size for navbar */
+  }
+
+  .navbar-right ul {
+    display: none; /* Hide the menu on small screens */
+  }
+
+  .home-content p {
+    font-size: 1rem; /* Reduce font size for content */
+  }
+
+  .footer {
+    padding: 15px 0;
+  }
+
+  .footer h2 {
+    font-size: 1.2rem; /* Adjust footer title font size */
+  }
+
+  .footer p {
+    font-size: 0.8rem; /* Adjust footer text font size */
+  }
+}
+
+/* For very small screens (extra small phones) */
+@media (max-width: 480px) {
+  .home-header h2 {
+    font-size: 1.5rem; /* Further adjust font size */
+  }
+
+  .home-header h3 {
+    font-size: 1.5rem; /* Further adjust font size */
+  }
+
+  .home-image {
+    width: 300px; /* Smaller image for very small screens */
+    height: 300px;
+  }
+
+  .social-icon {
+    font-size: 1.2rem; /* Make icons smaller */
+  }
+
+  .footer h2 {
+    font-size: 1rem; /* Further adjust footer title font size */
+  }
+
+  .footer p {
+    font-size: 0.7rem; /* Further adjust footer text font size */
+  }
+}
