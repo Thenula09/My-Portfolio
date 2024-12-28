@@ -1,6 +1,6 @@
 /* General styling */
 .about-content h1 {
-  font-size: 20px;
+  font-size: 30px;
   margin-top: 100px;
   margin-left: 600px;
 }
@@ -10,7 +10,7 @@
   height: 450px;
   margin: 20px auto;
   margin-left: 90px;
-  margin-top: 50px;
+  margin-top: 40px;
   display: block;
 }
 
@@ -39,6 +39,114 @@
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
   color: #555;
+}
+
+.cv-section {
+  text-align: center;
+  margin-top: 130px;
+  margin-left: 90px;
+  background-color: #746f6f; /* Black background */
+  color: #fff; /* White text color */
+  border: 2px solid #444; /* Dark grey border */
+  border-radius: 8px; /* Rounded corners for the box */
+  width: 150px; /* Adjust width for the box */
+  padding: 15px; /* Padding inside the box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add a shadow for depth */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.cv-section:hover {
+  background-color: #333; /* Slightly lighter black on hover */
+}
+
+.cv-link {
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  color: #fff; /* White text */
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cv-icon {
+  margin-right: 8px;
+}
+
+.cv-link:hover {
+  text-decoration: underline;
+}
+
+.more-info{
+  margin-left: 570px;
+  margin-top: 50px;
+}
+.more-info-section {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 570px; /* Updated margin-left to 570px */
+  background-color: #000; /* Black background */
+  border: 2px solid #8f1010; /* Dark grey border */
+  border-radius: 6px; /* Rounded corners */
+  display: inline-block; /* Make it wrap content */
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth hover effect */
+}
+
+.more-info-link {
+  font-size: 17px;
+  font-family: 'Arial', sans-serif;
+  color: #2b2a2a; /* White text */
+  font-weight: bold; /* Slightly bold */
+  text-decoration: none; /* Remove underline */
+  display: inline-flex;
+  align-items: center; /* Center align the text and arrow */
+}
+
+.more-info-link .arrow-icon {
+  margin-left: 10px; /* Adjust space between text and arrow */
+  font-size: 18px; /* Adjust arrow icon size */
+}
+
+.more-info-section:hover {
+  background-color: #333; /* Slightly lighter black on hover */
+  border-color: #666; /* Lighter border on hover */
+}
+
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 200px;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.footer h2 {
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.footer-social-icons {
+  margin-top: 10px;
+}
+
+.footer-social-icons .social-icon {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #555;
+  text-decoration: none;
+}
+
+.footer-social-icons .social-icon:hover {
+  color: #007bff;
+}
+
+.footer p {
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+  color: #666;
+  font-size: 14px;
 }
 
 /* Media Queries for Mobile Devices */
@@ -101,5 +209,10 @@
 
   .p3 {
     margin-top: 10px;
+  }
+
+  .cv-link,
+  .more-info-link {
+    font-size: 16px;
   }
 }

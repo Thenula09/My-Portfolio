@@ -1,4 +1,4 @@
-/* DesktopNavigation.css */
+/* Main Navbar Styles */
 .desktop-navbar {
   display: flex;
   justify-content: space-between;
@@ -7,24 +7,53 @@
   padding: 20px 50px;
 }
 
+.desktop-left h1 {
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.desktop-left h1:hover {
+  color: #1db3ee; /* Logo hover effect */
+}
+
+/* Menu Styles */
 .desktop-menu {
   list-style: none;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .desktop-menu li {
   margin: 0 20px;
 }
 
-.desktop-menu a {
+.menu-item {
   text-decoration: none;
   color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.desktop-menu a:hover {
-  color: #1db3ee;
+/* Active menu item (only for active page) */
+.menu-item.active {
+  color: black;
+  background-color: white; /* Active item background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* White border effect */
 }
 
+/* Hover effect for all menu items */
+.menu-item:hover {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
   .desktop-navbar {
     flex-direction: column;
@@ -39,9 +68,4 @@
   .desktop-menu li {
     margin: 10px 0;
   }
-}
-
-.desktop-left h1 {
-  font-size: 24px;
-  color: #333;
 }

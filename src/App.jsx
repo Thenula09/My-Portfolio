@@ -10,6 +10,8 @@ import About from './About/about';
 import Contact from './Contact/contact';
 import Project from './Project/project';
 
+import Gallery from './Gallery/gallery';
+
 const App = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 });
 
@@ -21,6 +23,8 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/project" element={<Project />} />
+        <Route path="/gallery" element={<Gallery />} />
+
       </Routes>
     </Router>
   );

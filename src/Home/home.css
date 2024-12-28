@@ -12,7 +12,7 @@ body {
 
 .home-header {
   text-align: center;
-  margin-top: 130px;
+  margin-top: 60px;
 }
 
 .home-header h2 {
@@ -24,7 +24,7 @@ body {
 
 .home-header h3 {
   margin-top: -40px;
-  margin-left: -94px;
+ 
   font-size: 3rem;
   color: #000000;
   font-family: initial;
@@ -33,7 +33,7 @@ body {
 .home-content {
   font-size: 1.2rem;
   color: #333;
-  text-align: center;
+   margin-left: 300px;
 }
 
 /* Navigation bar styling */
@@ -54,11 +54,11 @@ body {
 .navbar-left h1 {
   margin: 0;
   font-size: 1.5rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Verdana, Geneva, Tahoma, sans-serif, Geneva, Verdana, sans-serif;
 }
 
 .navbar-right ul {
-  list-style: none;
+  list-style: lower-alpha;
   margin: 0;
   padding: 0;
   display: flex;
@@ -89,12 +89,20 @@ body {
   border-radius: 5px;
   object-fit: cover;
 }
-
+ 
+.THENULAHANSAJA{
+  margin-left: 80px;
+}
+.WANNIARACHCHI{
+   margin-left: 40px;
+ 
+  
+}
 .footer {
   background-color: #bbbbbb;
   text-align: center;
   padding: 20px 0;
-  margin-top: 400px;
+  margin-top: 360px;
   border-top: 1px solid #ccc;
 }
 
@@ -125,6 +133,94 @@ body {
 .social-icon:hover {
   color: #00aaff;
 }
+/* Updated Technologies Section Styling */
+.technologies-section {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 270px;
+  margin-left: -220px;
+}
+
+.technologies-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.technologies-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 90px;
+}
+
+.technology-icon {
+  border: 3px solid #888;
+  border-radius: 20px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+}
+
+.technology-icon:hover {
+  transform: translateY(-5px);
+  background-color: #a4c1ce;
+  box-shadow: 0 6px 100px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+  font-size: 5rem;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.icon.html-icon {
+  color: #e34c26;
+}
+
+.icon.css-icon {
+  color: #1572b6;
+}
+
+.icon.php-icon {
+  color: #777bb3;
+}
+
+.icon.js-icon {
+  color: #f7df1e;
+}
+
+.icon.react-icon {
+  color: #61dafb;
+}
+
+.icon.firebase-icon {
+  color: #ffca28;
+}
+
+.icon.react-native-icon {
+  color: #00d8ff;
+}
+
+.icon.nodejs-icon {
+  color: #68a063;
+}
+
+.icon.mysql-icon {
+  color: #00758f;
+}
+
+.icon:hover {
+  color: #0078ff;
+}
+
 
 .footer-social-icons .social-icon:hover {
   transform: scale(1.1); /* Slight zoom-in effect */
@@ -169,7 +265,7 @@ body {
   }
 
   .footer {
-    padding: 15px 0;
+    padding: 12px 0;
   }
 
   .footer h2 {

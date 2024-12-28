@@ -4,7 +4,7 @@
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: -150px;
+  margin-bottom: -100px;
 }
 
 .contact-form {
@@ -62,7 +62,7 @@ textarea {
 .contact-info {
   font-size: 22px;
   font-weight: bold;
-  margin-top: -260px;
+  margin-top: -250px;
 }
 
 .description {
@@ -157,4 +157,22 @@ textarea {
     font-size: 1.5rem;
     margin: 5px 0;
   }
+}
+
+/* Icon styling */
+.icon {
+  font-size: 20px; /* Adjust the icon size */
+  margin-right: 10px;
+}
+
+.email-icon {
+  color: #db4437; /* Gmail icon color */
+}
+
+.phone-icon {
+  color: black; /* Black for phone */
+}
+
+.home-icon {
+  color: #4caf50; /* Green color for home */
 }
